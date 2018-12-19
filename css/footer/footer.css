@@ -30,8 +30,18 @@
   height: 79px;
   background-color: #e1e1e1;
   border-radius: 50%;
+  margin-right: 11px;
 }
+.footer__image-container:last-child {
+  margin-right: 0;
+}
+.footer__image-container:hover {
+  background-color: #e74246;
 
+}
+.footer__image-container:focus {
+  background-color: #d7373b;
+}
 .footer__social-image {
 
 }
