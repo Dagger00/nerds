@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Roboto medium";
+  src: url(/fonts/robotomedium.woff2) format("truetype");
+}
+
+.section_header {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto medium", serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #f7f4f1;
+}
+
+.section_header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.header__inner {
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 49px;
+}
+
+.logo:focus {
+  opacity: 0.3;
+}
+
+.header__nav {
+  width: 440px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__link {
+  margin-left: 45px;
+  padding: 10px 0 10px 0;
+}
+
+.header__link_active {
+  border-bottom: 2px solid #fb565a;
+  padding: 10px 0 8px 0;
+}
+
+.header__link:first-child {
+  margin-left: 0;
+}
+
+.header__link:hover {
+  color: #fb565a;
+}
+
+.header__link:focus {
+  opacity: 0.3;
+  color: black;
+}
+
+.header__link_cart {
+  margin-left: 243px;
+}
+
+.header__link_cart:before {
+  content: url("data:image/svg+xml; utf8, <svg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15'><circle fill='#a6a6a6' cx='4.5' cy='13.5' r='1.5'/><circle fill='#a6a6a6' cx='12.5' cy='13.5' r='1.5'/><path fill='#a6a6a6' d='M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z'/></svg> ");
+  position: relative;
+  right: 20px;
+  top: 2px;
+}

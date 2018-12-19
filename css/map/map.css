@@ -1,0 +1,8 @@
+.map__inner {
+  min-width: 1160px;
+  margin-top: 80px;
+}
+.section_map {
+  display: flex;
+  justify-content: center;
+}

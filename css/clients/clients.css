@@ -1,0 +1,26 @@
+.section_clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients__inner {
+  margin-top: 45px;
+  min-width: 1160px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 48px;
+
+}
+
+.clients__img {
+  height: 88px;
+  opacity: 0.2;
+}
+.clients__img:hover {
+  opacity: 1;
+}
+.clients__img:focus {
+  opacity: 0.1;
+}

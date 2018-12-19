@@ -1,0 +1,102 @@
+.section_description {
+  display: flex;
+  justify-content: center;
+}
+
+.description__inner {
+  display: flex;
+  justify-content: space-between;
+
+  min-width: 1160px;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 80px;
+
+}
+
+.description__block {
+  width: 660px;
+  margin-top: 80px;
+}
+
+.description__image-block {
+  width: 360px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description__title {
+  font-family: "Roboto medium", serif;
+  font-size: 45px;
+}
+
+.description__title_little {
+  font-family: "Roboto medium", serif;
+}
+
+.description__mini {
+  margin-top: 35px;
+  font-family: Roboto, serif;
+  font-size: 16px;
+}
+
+.description__list-title {
+  margin-top: 23px;
+  font-family: "Roboto bold", serif;
+  text-transform: uppercase;
+}
+
+.description__list {
+  list-style: none;
+  padding: 0;
+}
+
+.description__list-item {
+  font-family: "Roboto bold", serif;
+  margin-top: 31px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.description__list-item:first-child {
+  margin-top: 43px;
+}
+
+.description__list-image {
+  margin-right: 11px;
+}
+
+.description__title_little {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 41px;
+  font-family: "Roboto bold", serif;
+}
+
+.description__benefits-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description__benefit-block {
+  margin-right: 24px;
+}
+.description__benefit-block:last-child {
+  margin-right: 0;
+}
+
+.description__percents {
+  margin-top: 50px;
+  font-size: 45px;
+  font-family: "Roboto bold", serif;
+  font-weight: 700;
+}
+
+.description__mini-description {
+  margin-top: 27px;
+  font-size: 16px;
+}

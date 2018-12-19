@@ -1,0 +1,58 @@
+.section_main-offer {
+  font-size: 16px;
+  background-color: #f7f4f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-offer__inner {
+  margin-top: 18px;
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-offer__info {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-offer__title {
+  font-size: 55px;
+  font-family: "Roboto medium", serif;
+}
+
+.main-offer__description {
+  margin-top: 28px;
+  font-family: Roboto, serif;
+}
+
+.main-offer__button {
+  margin-top: 17px;
+  font-family: "Roboto medium", serif;
+  font-size: 16px;
+  width: 240px;
+  background-color: #fb565a;
+  padding: 16px 0;
+  align-self: self-start;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #ffffff;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main-offer__button:hover {
+  background-color: #e74246;
+}
+
+.main-offer__button:focus {
+  fill-opacity: 0.3;
+}
