@@ -3,7 +3,7 @@
   src: url(/fonts/robotobold.woff2) format("truetype");
 }
 
-.section_services {
+.services {
   display: flex;
   justify-content: center;
 }

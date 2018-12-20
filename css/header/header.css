@@ -3,7 +3,7 @@
   src: url(/fonts/robotomedium.woff2) format("truetype");
 }
 
-.section_header {
+.header {
   display: flex;
   justify-content: center;
   font-family: "Roboto medium", serif;
