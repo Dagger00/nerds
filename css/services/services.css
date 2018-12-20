@@ -55,34 +55,34 @@
   padding: 16px 0;
 }
 
-.services__item:nth-child(1) .services__button {
+.services__item_red .services__button {
   background-color: #fb565a;
 }
-.services__item:nth-child(1) .services__button:hover {
+.services__item_red .services__button:hover {
   background-color: #e74246;
 }
-.services__item:nth-child(1) .services__button:focus {
+.services__item_red .services__button:focus {
   background-color: #d7373b;
 }
 
 
-.services__item:nth-child(2) .services__button {
+.services__item_green .services__button {
   background-color: #00ca74;
 }
-.services__item:nth-child(2) .services__button:hover {
+.services__item_green .services__button:hover {
   background-color: #00bc6c;
 }
-.services__item:nth-child(2) .services__button:focus {
+.services__item_green .services__button:focus {
   background-color: #00aa62;
 }
 
 
-.services__item:nth-child(3) .services__button {
+.services__item_yellow .services__button {
   background-color: #efc84a;
 }
-.services__item:nth-child(3) .services__button:hover {
+.services__item_yellow .services__button:hover {
   background-color: #eab534;
 }
-.services__item:nth-child(3) .services__button:focus {
+.services__item_yellow .services__button:focus {
   background-color: #e5a722;
 }
